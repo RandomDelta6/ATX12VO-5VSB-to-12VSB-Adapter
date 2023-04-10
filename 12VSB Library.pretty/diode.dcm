@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RB088LAM-40TFTR
+D Super Low I<sub>R</sub>, 40V, 5A, SOD-128, Schottky Barrier Diode for Automotive
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb088lam-40tftr-e.pdf
+$ENDCMP
+#
+#End Doc Library
