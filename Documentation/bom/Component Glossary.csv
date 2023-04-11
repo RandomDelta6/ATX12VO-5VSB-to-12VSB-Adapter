@@ -1,0 +1,22 @@
+﻿List of Materials,,,,,
+Sl. No.,Notation,Type,Description,Value,Particulars
+1,U1,Controller ,,,FP6296
+2,C1,Capacitor,SMD 0805_2012,22uF,
+3,C2,Capacitor,SMD 0805_2012,22uF,
+4,C3,Capacitor,SMD 0603_1608,1uF,
+5,C4,Capacitor,SMD 0402_1005,,
+6,C5,Capacitor,SMD 0805_2012,22uF,
+7,C6,Capacitor,SMD 0805_2012,22uF,
+8,C9,Capacitor,SMD 0603_1608,0.1uF,
+9,C10,Capacitor,SMD 0402_1005,,
+10,C12,Capacitor,SMD 0603_1608,1nF,
+11,D1,Diode,,, SH54BF
+12,D2,Diode,,, SH54BF
+13,L1,Inductor,Radial-cylinderical,3.3uH 10A,Shielded Drum Core 3R3
+14,R1,Resistor,SMD 0402_1005,200KΩ,EIA 30D
+15,R2,Resistor,SMD 0402_1005,22KΩ,EIA 223
+16,R3,Resistor,SMD 0402_1005,100KΩ,EIA 01D
+17,R4,Resistor,SMD 0402_1005,30KΩ,EIA 303
+18,R5,Resistor,SMD 0603_1608,100Ω,EIA 101
+19,R8,Resistor,SMD 0603_1608,1.5Ω,EIA 1R5
+20,R10,Resistor,SMD 0603_1608,1KΩ,EIA 102
