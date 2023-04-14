@@ -1,11 +1,9 @@
 # Introduction
 
 in progress
-# Project Status
-Under development
 
 # Schematic
-<img src= "insert"  width="750"> 
+<img src= "https://user-images.githubusercontent.com/53912269/232120125-1deb1704-0188-4783-b5d2-be8cb820dbed.png"  width="750"> 
 
 # PCB
 <img src="https://user-images.githubusercontent.com/53912269/231196245-f957f703-b3f5-4f59-a1fb-1b842249071a.png" width ="250">        
