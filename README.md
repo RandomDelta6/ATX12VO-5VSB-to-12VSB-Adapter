@@ -22,9 +22,9 @@ PCB Back View
 
 # Usage
 
-Wave Solder all SMD components on the front side of the board. Proceed to solder in the diode and inductor on the back. Thread in the cables from the back and solder onto the front side, ensure enough solder flows to make a solid connection through the plated through hole and solder flows across to the exposed contact on the back side. It is to be noted that the +12V and GND terminals are pretty close, ensure the terminals are not bridged.
+Wave solder all SMD components on the front side of the board. Proceed to solder in the diode and inductor on the back. Thread in the cables from the back and solder onto the front side, ensure enough solder flows to make a solid connection through the plated through hole and solder flows across to the exposed contact on the back side. Please note that +12V and GND terminals are pretty close, ensure the terminals are not bridged during soldering.
 
-
+It is to be noted that +5VSB commences at the PSU Connector end and terminates at this board while +12VSB originates at this board and continues to the ATX 12VO Motherboard Connector. +12V and GND wires are to run across the cable from the PSU connector end to the motherboard connector end and the +12V and GND connections for this board may use wires spliced in with the +12V and GND wires running across the cable or have dedicated wires run through the PSU connector end to the +12V and GND terminals of this board.
 
 # Notes
 
@@ -46,4 +46,6 @@ This project was made with Kicad 7.0
 This board has not been printed and tested physically to verify functionality. I do not assume any liability for the materials, information and opinions provided on, or available through, this project. I disclaim any liability for injury, death or damages resulting from the use thereof. Modify or work on it at your own risk.
 
 # Licensing
-All PCB design files and hardware are released under the [Creative Commons Attribution Share Alike 4.0 license](https://choosealicense.com/licenses/cc-by-sa-4.0/). Commercial Usage strictly disallowed.
+All PCB design files and hardware are released under the [Creative Commons Attribution Share Alike 4.0 license](https://choosealicense.com/licenses/cc-by-sa-4.0/). 
+
+Commercial Usage strictly disallowed.

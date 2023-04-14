@@ -4,11 +4,11 @@ Sl. No.,Notation,Type,Description,Value,Particulars
 2,C1,Capacitor,SMD 0805_2012,22uF,
 3,C2,Capacitor,SMD 0805_2012,22uF,
 4,C3,Capacitor,SMD 0603_1608,1uF,
-5,C4,Capacitor,SMD 0402_1005,,
+5,C4,Capacitor,SMD 0402_1005,2.2nF,
 6,C5,Capacitor,SMD 0805_2012,22uF,
 7,C6,Capacitor,SMD 0805_2012,22uF,
 8,C9,Capacitor,SMD 0603_1608,0.1uF,
-9,C10,Capacitor,SMD 0402_1005,,
+9,C10,Capacitor,SMD 0402_1005,470pF,
 10,C12,Capacitor,SMD 0603_1608,1nF,
 11,D1,Diode,,, SH54BF
 12,D2,Diode,,, SH54BF
