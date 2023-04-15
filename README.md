@@ -1,18 +1,18 @@
 # Introduction
 
-in progress
+in progress - benefit if sff in inline - hard to break-better cable manage - low esr caps
 
 # Schematic
 <img src= "https://user-images.githubusercontent.com/53912269/232120125-1deb1704-0188-4783-b5d2-be8cb820dbed.png"  width="750"> 
 
 # PCB
-<img src="https://user-images.githubusercontent.com/53912269/231196245-f957f703-b3f5-4f59-a1fb-1b842249071a.png" width ="250">        
+<img src="https://user-images.githubusercontent.com/53912269/232188920-34c76fb8-cfb7-4699-81d4-b1005601bacc.png" width ="250">        
 
 PCB Front View
 
 
 
-<img src="https://user-images.githubusercontent.com/53912269/231196644-56486391-207f-436a-bc93-ca6299a9212b.png" width ="250">
+<img src="https://user-images.githubusercontent.com/53912269/232189052-a326f1e7-1ed4-454e-8c3d-7d5ca8a89cb7.png" width ="250">
 
 PCB Back View
 
@@ -26,12 +26,11 @@ It is to be noted that +5VSB commences at the PSU Connector end and terminates a
 
 # Notes
 
-This board prioritises small form factor above all else and as such will have a performance penalty as opposed to the reference two layer, single sided component layout with global ground net on bottom layer. 
+This board prioritises small form factor above all else and as such will have a performance penalty as opposed to the reference layout which uses a two layer design with single sided component layout spread out over a much larger area with global ground net on bottom layer. 
 
 Mounting the magnetic component (Inductor) directly on the otherside of the controller introduces significant noise and coupling. As such a 4 layer PCB is required for isolation which is achieved by flooding ground in the middle two copper layers as well as underneath the inductor on the bottom layer. This should provide significant shielding to signal lines and the throughly stitched ground planes should ensure low impedance across ground net. This minimises the magnetic effect but does not completely isolate it, as such a nominal coil whine is to be expected.
 
-The reference design might be cheaper as it utilises 2 layers as opposed to 4 layers in this design, but the cost difference should be negligible on a per unit basis when panelized due to the smaller board footprint in this design which would net more boards from a similar sized panel. Thorough use of vias in this design is necessary for proper signal integrity even though it might increase expense. Thick signal traces are used wherever necessary to minimise the inductive effect of the tracks for high frequency signals.
-
+The reference design might be cheaper as it utilises 2 layers as opposed to 4 layers in this design, but the cost difference should be negligible on a per unit basis when panelized due to the smaller board footprint in this design which would net more boards from a similar sized panel. Thorough use of vias in this design is necessary for proper signal integrity even though it might increase expense. Thick signal traces are used wherever necessary to minimise the inductive effect of the tracks for high frequency signals. Ceramic Capacitors with low ESR must be used. MLCC X5R and X7R Series are recommended.
 
 Although I am pretty confident the board should work, you might still wish to have the board verified by a professional. I am not particularly confident about the values of C4 and C10.
 
