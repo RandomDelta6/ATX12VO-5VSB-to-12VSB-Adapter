@@ -1342,6 +1342,24 @@
       (net 9 "Net-(D1-A)") (pinfunction "2") (pintype "passive") (tstamp 8a128265-c983-45a2-922b-f4318e8968d7))
   )
 
+  (gr_poly
+    (pts
+      (xy 64.818522 60.675596)
+      (xy 64.837837 64.561488)
+      (xy 61.141952 64.57607)
+      (xy 61.155093 60.674568)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "B.Adhes") (tstamp c2c2b2dd-b186-437d-9d7a-50d9769e2306))
+  (gr_poly
+    (pts
+      (xy 61.660308 53.835572)
+      (xy 61.665232 54.826199)
+      (xy 60.68741 54.830057)
+      (xy 60.69076 53.8353)
+    )
+
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "B.Adhes") (tstamp d92f2b29-1e2a-4c92-8b51-b01b8afc560b))
   (gr_arc (start 69.6214 67.226444) (mid 68.966049 68.8086) (end 67.383893 69.463951)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 1e46000e-5c11-4d20-8dde-7e5ba1ed3886))
   (gr_line (start 52.7304 54.439563) (end 52.7304 67.226444)
