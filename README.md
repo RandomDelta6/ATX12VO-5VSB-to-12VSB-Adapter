@@ -43,7 +43,7 @@ Although I am pretty confident the board should work, you might still wish to ha
 
 Couldn't find a proper model for Inductor L1 and Diodes D1 and D2, so they are missing on the PCB views.
 
-This project was made with Kicad 7.0
+This project was made with Kicad 7.0 .
 Generate gerbers as per specification from the fab of your choice.
 
 
