@@ -27,7 +27,7 @@ PCB Back View
 
 # Usage
 
-Wave solder all SMD components on the front side of the board. Proceed to solder in the diode and inductor on the back. Thread in the cables from the back and solder onto the front side, ensure enough solder flows to make a solid connection through the plated through hole and solder flows across to the exposed contact on the back side. Please note that +12V and GND terminals are pretty close, ensure the terminals are not bridged during soldering.
+Proceed to place the diode and inductor on the back, these are held in place via the adhesive. Then place the front smd components and reflow solder the entire assembly. Thread in the cables from the back and solder onto the front side, ensure enough solder flows to make a solid connection through the plated through hole and solder flows across to the exposed contact on the back side. Please note that +12V and GND terminals are pretty close, ensure the terminals are not bridged during soldering.
 
 It is to be noted that +5VSB commences at the PSU Connector end and terminates at this board while +12VSB originates at this board and continues to the ATX12VO Motherboard Connector. +12V and GND wires are to run across the cable from the PSU connector end to the motherboard connector end and the +12V and GND connections for this board may use wires spliced in with the +12V and GND wires running across the cable or have dedicated wires run through the PSU connector end to the +12V and GND terminals of this board. The inline circuit assembly maybe encapsulated with a heatshrink for better isolation. It can then be bundled together with the other wires running across the cable and be sleeved together. 
 
@@ -44,6 +44,7 @@ Although I am pretty confident the board should work, you might still wish to ha
 Couldn't find a proper model for Inductor L1 and Diodes D1 and D2, so they are missing on the PCB views.
 
 This project was made with Kicad 7.0
+Generate gerbers as per specification from the fab of your choice.
 
 
 # Disclaimer
